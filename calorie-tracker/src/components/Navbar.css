@@ -8,7 +8,6 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    font-weight: 700;
   }
   
   .navbar-container {
@@ -91,7 +90,6 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
-      justify-content: flex-start;
     }
   
     .nav-menu.active {
@@ -118,7 +116,7 @@
     .navbar-logo {
       position: absolute;
       top: 0;
-      left: -1.2em;
+      left: 0;
       transform: translate(25%, 50%);
     }
   
