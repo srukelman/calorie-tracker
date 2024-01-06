@@ -1,0 +1,48 @@
+.food-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.food-table-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.food-table thead tr {
+    background-color: #2A7221;
+    color: #ffffff;
+    text-align: left;
+}
+
+.food-table-row {
+    border-bottom: 1px solid #dddddd;
+}
+
+.food-table-row:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.food-table-row:last-of-type {
+    border-bottom: 2px solid #2A7221;
+}
+
+.food-table-row:hover {
+    background-color: #ddd;
+}
+
+.food-table-cell{
+    padding: 12px 15px;
+}
+
+.food-table-header{
+    padding: 12px 15px;
+}

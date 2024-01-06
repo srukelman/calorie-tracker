@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(90deg, #152614 0%, #1E441E 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #1E441E;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -128,7 +128,7 @@
   
     .nav-links:hover {
       background-color: #fff;
-      color: #242424;
+      color: #1E441E;
       border-radius: 0;
     }
   

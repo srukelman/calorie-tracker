@@ -1,9 +1,12 @@
 import React from 'react';
+import FoodInputForm from '../FoodInputForm';
+import FoodTable from '../FoodTable';
 
 function Home() {
   return (
     <>
-      <p>harro</p>
+      <FoodInputForm />
+      <FoodTable />
     </>
   );
 }
