@@ -1,0 +1,10 @@
+.home-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    max-width: 1500px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}

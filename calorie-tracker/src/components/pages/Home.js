@@ -5,8 +5,11 @@ import FoodTable from '../FoodTable';
 function Home() {
   return (
     <>
-      <FoodInputForm />
-      <FoodTable />
+      <div className='home-page-container'>
+        <FoodInputForm />
+        <FoodTable />
+      </div>
+      
     </>
   );
 }
