@@ -34,6 +34,7 @@ foodRouter.get('/:id', async (req, res) => {
   }
 });
 
+// POST new food
 foodRouter.post('/', async (req, res) => {
   try {
     const {
@@ -59,6 +60,8 @@ foodRouter.post('/', async (req, res) => {
   }
 });
 
+
+// PUT (update) food with matching ID
 foodRouter.put('/:id', async (req, res) => {
   const { id } = req.params;
 
@@ -81,6 +84,7 @@ foodRouter.put('/:id', async (req, res) => {
   }
 });
 
+// DELETE food with matching ID
 foodRouter.delete('/:id', async (req, res) => {
   try {
     const { id } = req.params;
