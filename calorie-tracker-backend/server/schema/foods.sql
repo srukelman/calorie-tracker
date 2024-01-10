@@ -2,13 +2,13 @@ DROP TABLE IF EXISTS public.foods;
 
 CREATE TABLE IF NOT EXISTS public.foods
 (
-    item_id integer NOT NULL DEFAULT nextval('fair_market_value_item_id_seq'::regclass),
-    item_name character varying(200) COLLATE pg_catalog."default" NOT NULL,
-    serving_size integer NOT NULL,
-    serving_size_type character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    item_id int NOT NULL DEFAULT AUTO_INCREMENT,
+    item_name varchar(200) NOT NULL,
+    serving_size int NOT NULL,
+    serving_size_type varchar(100) NOT NULL,
     total_calories integer,
-    fat integer,
-    carbs integer,
-    protein integer,
-    CONSTRAINT foods_pkey PRIMARY KEY (item_id)
+    fat int,
+    carbs int,
+    protein int,
+    PRIMARY KEY (item_id)
 )
